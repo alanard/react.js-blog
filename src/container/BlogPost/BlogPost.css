@@ -1,0 +1,108 @@
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.post {
+  /* border: 1px solid black; */
+  width: 50%;
+
+  display: flex;
+  margin: 10px 20px 20px 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: 2px 5px 10px #888888;
+}
+
+.post .img-thumb {
+  /* border: 1px solid black; */
+  flex: 1;
+  margin: 15px;
+}
+
+
+.post .content {
+  /* border: 1px solid black; */
+  flex: 2;
+  margin-left: 10px;
+
+  padding-right: 20px;
+}
+
+.content .title {
+  /* border: 1px solid black; */
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content .desc{
+  /* border: 1px solid black; */
+  font-size: 16px;
+}
+
+.update {
+  padding: 12px 18px;
+  background-color: rgb(14, 201, 14);
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.remove {
+  padding: 12px 18px;
+  background-color: rgb(201, 14, 14);
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.remove:hover, .update:hover {
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.text-title {
+  margin: 15px;
+}
+
+.input-title {
+  width: 95%;
+  margin: auto;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.input-desc {
+  width: 95%;
+  margin: auto;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.btn-success {
+  width: 20%;
+  background-color: transparent;
+  color: rgb(85, 85, 160);
+  border-color: rgb(88, 88, 160);
+}
+
+.btn-success:hover {
+  width: 20%;
+  background-color: rgb(37, 37, 141);
+  color: rgb(255, 255, 255);
+  border-color: rgb(37, 37, 141);
+}
